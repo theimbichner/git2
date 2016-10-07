@@ -41,11 +41,11 @@ public class MyList {
     // copy over the elements from the current array starting at index 1.
     // Then adjust this.array to point at the new array.
     if (this.array.length > 0) {
-      String[] newArray = new String[this.array.length - 1];
+      String[] seperateArray = new String[this.array.length - 1];
       for (int i = 1; i < this.array.length; i++) {
-        newArray[i - 1] = this.array[i];
+        seperateArray[i - 1] = this.array[i];
       }
-      this.array = newArray;
+      this.array = seperateArray;
     }
 
   }
