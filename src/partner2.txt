@@ -1,3 +1,3 @@
-Some edit made by partner 1:
+Some edit made by partner 2:
 
-Make a change here
+Fixed a typo, changed 'Partner 1' to 'Partner 2'
